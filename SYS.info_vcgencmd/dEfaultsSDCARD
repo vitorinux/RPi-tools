@@ -1,0 +1,2 @@
+#!/bin/bash
+sudo grep clock /sys/kernel/debug/mmc0/ios

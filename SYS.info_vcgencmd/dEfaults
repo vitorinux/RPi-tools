@@ -1,0 +1,2 @@
+#!/bin/bash
+vcgencmd get_config int | egrep "(arm|core|gpu|sdram)_freq|over_volt"
